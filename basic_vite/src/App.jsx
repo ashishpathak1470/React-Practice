@@ -3,13 +3,14 @@ import First from "./first"
 
 function App() {
 
+  const username= "ash"
+  
   return (
-    <><First />
+    <>
     
-    <h1>first</h1>
+    <First />
     
-    
-    
+    <h1>first {username}</h1>
     
     </>
     
